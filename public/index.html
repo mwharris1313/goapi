@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="script/js/vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="script/js/lib/main/main.js"></script>
+    <script src="script/js/lib/controller/controller.js"></script>
+  </head>
+  <body ng-controller="cUserList">
+    <ul>
+      <li ng-repeat="user in users">
+        <span>{{user.name}}</span>
+        <p>{{user.title}}</p>
+      </li>
+    </ul>
+  </body>
+</html>
