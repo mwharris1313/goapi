@@ -13,6 +13,7 @@ func main()  {
 
   router := gin.Default()
   router.Static("/", "./public")
+  // router.Static("/mp", "./public/mp")
   // router.StaticFS("/more_static", http.Dir("my_file_system"))
   // router.StaticFile("/favicon.ico", "./resources/favicon.ico")
 
